@@ -3,7 +3,7 @@
 }
 
 .education h2 {
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .educationsContainer {
@@ -33,14 +33,14 @@
 }
 
 .educationCard h3 {
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: bold;
     margin: 20px 0 10px;
     text-align: center;
 }
 
 .educationCard p {
-    font-size: 12px;
+    font-size: .75em;
     line-height: 1.5;
     margin-bottom: 20px;
     padding: 0 20px;
