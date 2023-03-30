@@ -48,6 +48,7 @@
 
 .projectCard a {
     position: absolute;
+    font-size: 16px;
     bottom: 0;
     left: 0;
     width: 100%;
