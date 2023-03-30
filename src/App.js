@@ -8,6 +8,9 @@ import {
 function App() {
   return (
     <div className="App">
+      <div id='blank-area'>
+
+      </div>
       <>
         <Greeting/>
         <Projects/>

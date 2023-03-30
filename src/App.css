@@ -8,3 +8,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+#blank-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background: #c0ffee; /* light blue background color */
+  transform: translate(50%, -50%) rotate(45deg);
+}
