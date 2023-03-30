@@ -1,4 +1,6 @@
 import './Projects.css';
+import '../App.css';
+
 
 function Projects() {
   return (

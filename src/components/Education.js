@@ -1,4 +1,6 @@
 import './Education.css';
+import '../App.css';
+
 
 function Education() {
   return (

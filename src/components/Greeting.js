@@ -1,4 +1,6 @@
 import './Greeting.css';
+import '../App.css';
+
 
 function Greeting() {
   return (
