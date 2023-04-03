@@ -9,11 +9,13 @@ function Projects() {
   <div class="projectsContainer">
     <div class="projectCard">
       <h3>ACL Grocery</h3>
-      <p>As part of a team, I developed a full-stack web application that
+      <p>As part of a team, I developed a full-stack ecommerce site that
          enabled users to purchase groceries. This involved working with 
          a technology stack that included Node.js, Express, and React.js,
           as well as collaborating with my team members to ensure the
            application was delivered on time and met the project requirements.
+
+          <br></br> *Use username:Admin password:Secret123 for admin abilities
       </p>
       <a href="https://acl-groceries.onrender.com" target="_blank" rel="noreferrer">View Project</a>
     </div>

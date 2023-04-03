@@ -7,15 +7,25 @@
   /* justify-content: center; */
   /* font-size: calc(10px + 4vmin); */
   color: white;
+  overflow-x: hidden;
 }
 
-#blank-area::before {
+/* #blank-area::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
-  width: 200px;
-  height: 200px;
-  background: #c0ffee; /* light blue background color */
+  width: 5em;
+  height: 5em;
+  background: #c0ffee;
   transform: translate(50%, -50%) rotate(45deg);
-}
+  overflow-x: hidden;
+} */
+
+@media (min-width: 768px) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

@@ -1,39 +1,167 @@
 .greeting {
-    margin: 50px 30px;
+    margin: 2em 1em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.greeting h1{
-    margin: 10px 0px;
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 4em;
-}
-
-.greeting h6{
+.greeting h6 {
     margin: 0px;
     font-size: 1em;
+}
+
+.greeting h1 {
+    margin: 10px 0px;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 3em;
 }
 
 .greeting h2 {
     margin: 0px;
-    font-size: 1em;
-}
-
-.shortBio {
-    font-size: .75em;
-    max-width: 50vw;
-    line-height: 1.6;
+    font-size: .8em;
 }
 
 .languages {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin: 0; 
+    margin: 0;
     padding: 0;
-    font-size: .8em;
-    gap: 3px;
+    font-size: .6em;
+    gap: .2em;
     margin: 10px 0px;
+}
+
+.shortBio {
+    font-size: .75em;
+    width: 20em;
+    line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+    .greeting {
+        margin: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .greeting h1 {
+        margin: 10px 0px;
+        text-shadow: 2px 2px 4px #000000;
+        font-size: 4em;
+    }
+
+    .greeting h6 {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    .greeting h2 {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    .shortBio {
+        font-size: .75em;
+        max-width: 50vw;
+        line-height: 1.6;
+    }
+
+    .languages {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: .8em;
+        gap: 3px;
+        margin: 10px 0px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .greeting {
+        margin: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .greeting h1 {
+        margin: 10px 0px;
+        text-shadow: 2px 2px 4px #000000;
+        font-size: 4em;
+    }
+
+    .greeting h6 {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    .greeting h2 {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    .shortBio {
+        font-size: .75em;
+        max-width: 50vw;
+        line-height: 1.6;
+    }
+
+    .languages {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: .8em;
+        gap: 3px;
+        margin: 10px 0px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .greeting {
+        margin: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .greeting h1 {
+        margin: 10px 0px;
+        text-shadow: 2px 2px 4px #000000;
+        font-size: 4em;
+    }
+
+    .greeting h6 {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    .greeting h2 {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    .shortBio {
+        font-size: .75em;
+        max-width: 50vw;
+        line-height: 1.6;
+    }
+
+    .languages {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: .8em;
+        gap: 3px;
+        margin: 10px 0px;
+    }
 }

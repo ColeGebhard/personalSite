@@ -1,5 +1,5 @@
 .education {
-    margin: 0px 30px;
+    margin: 0 1em;
 }
 
 .education h2 {
@@ -8,7 +8,7 @@
 
 .educationsContainer {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -62,3 +62,11 @@
 .educationCard a:hover {
     background-color: #1e88e5; /* set a darker shade of the background color on hover */
 }
+
+@media (min-width: 768px) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
