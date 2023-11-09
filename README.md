@@ -1,5 +1,7 @@
 # My Personal Site
 
+![A screenshot of my webpage](https://raw.githubusercontent.com/ColeGebhard/personalSite/main/public/ScreenshotOfPage.png)
+
 This houses all my accomplishments, and other things that you see as interesting. 
 
 [Site Link](https://cole-gebhard.onrender.com/)
@@ -13,10 +15,10 @@ git clone git@github.com:ColeGebhard/personalSite.git
 ## Usage
 
 ```
-##Install packages
+## Install packages
 npm init
 
-##Run Page
+## Run Page
 npm start
 ```
 
