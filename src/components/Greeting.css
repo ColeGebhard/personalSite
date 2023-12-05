@@ -7,7 +7,8 @@
 
 .greetingMain::before {
     content: "";
-    background-image: url('../../../personalSite/public/images/pngwing.com.png');
+    background-image: url('../../public/images/pngwing.com.png');
+
     background-size: 50%;
     position: absolute;
     top: 0px;
