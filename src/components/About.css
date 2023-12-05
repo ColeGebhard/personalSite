@@ -1,0 +1,89 @@
+.about {
+    background-color: #fffafa;
+    color: #282c34;
+    height: 100%; /* Use viewport height instead of percentage */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about h1 {
+    margin-left: 2em;
+}
+
+.imgAndBio {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.imgAndBio img {
+    width: 30em;
+    max-width: 100%;
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 5px;
+    object-fit: cover;
+    z-index: 200; /* Optional: set a maximum width if needed */
+    margin-top: 1em;
+}
+
+.imgAndBio div {
+    z-index: 200;
+    background-color: #fffafa;
+    border-radius: 5px;
+}
+
+.imgAndBio p {
+    width: 100%;
+    max-width: 40em;
+    /* Optional: set a maximum width if needed */
+    z-index: 200;
+}
+
+#mtnLandscape {
+    width: 100vw;
+}
+
+/* Media query for screens with a maximum width of 767px (mobile screens) */
+@media (max-width: 767px) {
+    .about {
+        align-items: center;
+    }
+
+    .about h1 {
+        margin: 1em 0;
+    }
+
+    .imgAndBio {
+        flex-direction: column;
+        padding: 1em;
+        gap: 1em;
+        align-items: center;
+    }
+
+    .imgAndBio img {
+        width: 40em;
+        margin: 0;
+    }
+
+    .imgAndBio div {
+        margin-top: 0; /* Remove the top margin for better spacing on smaller screens */
+    }
+
+    #mtnLandscape {
+        /* Adjust styles for #mtnLandscape if needed */
+    }
+}
+
+/* Media query for screens with a maximum width of 1178px */
+@media (max-width: 1178px) {
+    .imgAndBio img{
+        /* padding: 2em; */
+        width: 25em;
+        
+    }
+
+    .imgAndBio{
+        margin: 0 1em;
+    }
+}

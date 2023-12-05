@@ -1,19 +1,24 @@
 .education {
-    margin: 0 1em;
+    background-color: #fffafa;
+    color: #282c34;
+
 }
 
 .education h2 {
     font-size: 2em;
+    margin-left:2em;
 }
 
 .educationsContainer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    color: #fffafa ;
+    margin-left: 2em;
 }
 
 .educationCard {
-    width: 300px;
+    width: 20em;
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
@@ -24,8 +29,9 @@
     flex-direction: column;
     align-items: space-between;
     /* padding: 20px 20px 50px; */
-    /* padding-bottom: 50px; */
+    padding-bottom: 50px;
     position: relative;
+    z-index: 200;
 }
 
 .educationCard:hover {
@@ -63,7 +69,19 @@
     background-color: #1e88e5; /* set a darker shade of the background color on hover */
 }
 
-@media (min-width: 768px) {  }
+@media (max-width: 768px) { 
+    .education{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .educationsContainer{
+        max-width: 50em;
+        justify-content: center;
+        margin: 0; /* Remove margin for smaller screens */
+    }
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {  }

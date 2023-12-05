@@ -16,7 +16,7 @@ git clone git@github.com:ColeGebhard/personalSite.git
 
 ```
 ## Install packages
-npm init
+npm i
 
 ## Run Page
 npm start

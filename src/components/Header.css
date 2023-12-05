@@ -1,0 +1,42 @@
+.headerMain {
+    padding: 20px;
+    z-index: 101;
+    position: absolute;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  
+  .navList li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  
+  .navList a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Mountain range styling */
+  /* .headerMain::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background: linear-gradient(to bottom, transparent 0%, #fffafa 100%);
+    clip-path: polygon(0 100%, 50% 0%, 100% 100%);
+    z-index: 1;
+  }
+   */

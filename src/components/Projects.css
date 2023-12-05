@@ -1,15 +1,94 @@
 .project {
-    margin: 0 1em;
+    background-color: #fffafa;
+    color: #282c34;
 }
+
+.projectSpotlight {
+    margin: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectSpotlight h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.projectSpotlight h1 {
+    font-size: 3em;
+}
+
+.projectSpotlight a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: .2em;
+    transition: color .3s ease-in-out;
+    color: #282c34;
+    position: relative;
+}
+
+.projectSpotlight a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px; /* Adjust the thickness of the line as needed */
+    background-color: #4c5050;
+    transition: width .3s ease-in-out;
+}
+
+.projectSpotlight a:hover::before {
+    width: 100%;
+}
+
+.projectSpotlight a:hover {
+    color: #4c5050;
+    cursor: pointer;
+}
+
+.detailSpan{
+    display: flex;
+    gap: 2em;
+    margin: 0 5em;
+}
+
+.detailSpan img {
+    z-index: 999;
+    width: 40em;
+    max-width: 100%;
+    height: 100%;
+}
+
+.description {
+    background-color: #282c34;
+    padding: 0 1em;
+    border-radius: 20px;
+    color: #fffafa ;
+    z-index: 999;
+
+}
+
+.description p {
+    font-size: 1.1em;
+    z-index: 999;
+}
+
 
 .project h2 {
     font-size: 2em;
+    margin-left: 2em;
 }
 
 .projectsContainer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    color: #fffafa ;
+    margin-left: 2em;
+    gap: 0;
 }
 
 .projectCard {
@@ -26,6 +105,7 @@
     /* padding: 20px 20px 50px; */
     padding-bottom: 50px;
     position: relative;
+    z-index: 200;
 }
 
 .projectCard:hover {
@@ -52,7 +132,8 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #2196f3; /* set the background color to the same as the bottom color of the gradient */
+    background-color: #2196f3;
+    /* set the background color to the same as the bottom color of the gradient */
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
@@ -61,13 +142,59 @@
 }
 
 .projectCard a:hover {
-    background-color: #1e88e5; /* set a darker shade of the background color on hover */
+    background-color: #1e88e5;
+    /* set a darker shade of the background color on hover */
 }
 
-@media (min-width: 768px) {  }
+@media (max-width: 767px) {
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectSpotlight h1 {
+        font-size: 2em;
+    }
+    .detailSpan {
+        flex-direction: column; /* Stack images and descriptions vertically on smaller screens */
+        margin: 0;
+    }
+
+    .detailSpan img {
+        z-index: 999;
+        width: 100%;
+    }
+
+    .project h2 {
+        margin-left: 0; /* Remove left margin for smaller screens */
+    }
+
+    .projectsContainer {
+        max-width: 50em;
+        justify-content: center;
+        margin: 0; /* Remove margin for smaller screens */
+    }
+
+    .projectCard {
+    }
+}
+
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (max-width: 1337px) {
+    .detailSpan {
+        align-items: center;
+        flex-direction: column; /* Stack images and descriptions vertically on smaller screens */
+        margin: 0;
+        /* width: 50em; */
+    }
+
+    .detailSpan img{
+        width: 50em;
+    }
+}
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {}
