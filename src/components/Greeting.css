@@ -115,7 +115,15 @@
 
 @media (max-width: 767px) {
     .greeting h1 {
-        font-size: 2.5em; /* Adjust font size for smaller screens */
+        font-size: 2em; /* Adjust font size for smaller screens */
+    }
+
+    .greeting h2{
+        font-size: 1em;
+    }
+
+    .greeting h6 {
+        font-size: 1em;
     }
 
     .languages {
@@ -131,7 +139,8 @@
     }
 
     .shortBio {
-        width: 90%; /* Allow the shortBio to take the full width of the screen */
+        width: 90%;
+        font-size: .8em; /* Allow the shortBio to take the full width of the screen */
     }
 
     .downArrow {
